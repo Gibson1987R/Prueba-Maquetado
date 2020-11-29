@@ -5,8 +5,7 @@ class Navbar extends React.Component {
   render() {
     return (
       <div>
-        <nav className="navbar navbar-expand-lg navbar-dark bg-dark">
-        {/* <a className="navbar-brand" href="#">Navbar</a> */}
+        <nav className="navbar navbar-expand-lg navbar-light bg-glass">
         <button 
         className="navbar-toggler" 
         type="button" 
@@ -21,7 +20,7 @@ class Navbar extends React.Component {
           className="collapse navbar-collapse" 
           id="navbarSupportedContent">
             <ul className="navbar-nav mr-auto">
-              <li className="nav-item col-md">
+              <li className="nav-item col-md active">
                 <a className="nav-link" 
                 href="#">
                   Home 
@@ -29,7 +28,7 @@ class Navbar extends React.Component {
                     (current)
                   </span></a>
               </li>
-              <li className="nav-item dropdown col-md">
+              <li className="nav-item dropdown col-md active">
                 <a className="nav-link dropdown-toggle" 
                 href="#" 
                 id="navbarDropdownMenuLink" 
@@ -47,7 +46,7 @@ class Navbar extends React.Component {
                   <a className="dropdown-item" href="#">Blue</a>
                 </div>
               </li>
-              <li className="nav-item dropdown col-md">
+              <li className="nav-item dropdown col-md active">
                 <a className="nav-link dropdown-toggle" 
                 href="#" 
                 id="navbarDropdownMenuLink" 
@@ -63,7 +62,7 @@ class Navbar extends React.Component {
                   <a className="dropdown-item" href="#">Blue</a>
                 </div>
               </li>
-              <li className="nav-item dropdown col-md">
+              <li className="nav-item dropdown col-md active">
                 <a className="nav-link dropdown-toggle" 
                 href="#" 
                 id="navbarDropdownMenuLink" 
@@ -79,7 +78,7 @@ class Navbar extends React.Component {
                   <a className="dropdown-item" href="#">Sayayin</a>
                 </div>
               </li>
-              <li className="nav-item dropdown col-md">
+              <li className="nav-item dropdown col-md active">
                 <a className="nav-link dropdown-toggle" 
                 href="#" id="navbarDropdownMenuLink" 
                 role="button" 
@@ -94,7 +93,7 @@ class Navbar extends React.Component {
                   <a className="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li className="nav-item dropdown col-md">
+              <li className="nav-item dropdown col-md active">
                 <a className="nav-link dropdown-toggle" 
                 href="#" 
                 id="navbarDropdownMenuLink" 
@@ -110,7 +109,7 @@ class Navbar extends React.Component {
                   <a className="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li className="nav-item dropdown col-md">
+              <li className="nav-item dropdown col-md active">
                 <a className="nav-link dropdown-toggle" 
                 href="#" 
                 id="navbarDropdownMenuLink" 
@@ -126,7 +125,7 @@ class Navbar extends React.Component {
                   <a className="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li className="nav-item dropdown col-md">
+              <li className="nav-item dropdown col-md active">
                 <a className="nav-link dropdown-toggle" 
                 href="#" 
                 id="navbarDropdownMenuLink" 
@@ -142,7 +141,7 @@ class Navbar extends React.Component {
                   <a className="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li className="nav-item dropdown col-md">
+              <li className="nav-item dropdown col-md active">
                 <a className="nav-link dropdown-toggle" 
                 href="#" id="navbarDropdownMenuLink" 
                 role="button" 
@@ -157,7 +156,7 @@ class Navbar extends React.Component {
                   <a className="dropdown-item" href="#">Something else here</a>
                 </div>
               </li>
-              <li className="nav-item dropdown col-md">
+              <li className="nav-item dropdown col-md active">
                 <a className="nav-link dropdown-toggle" 
                 href="#" 
                 id="navbarDropdownMenuLink" 

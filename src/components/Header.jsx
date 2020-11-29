@@ -9,22 +9,20 @@ class Header extends React.Component {
   render() {
     return (
       <div className="container">
-        <div className="row order-sm-2 order-md-1">
-          <div className="col-sm-6 col-md-4  order-sm-0 order-md-0 Medio">
+        <div className="row ">
+          <div className="col-6 col-md-4  order-1 order-md-0 pr-0 pl-0  bg-info Medio">
             <img className='Navbar-logo-1'
             src={Ball} alt="DragonBall"/>
           </div>
-          <div className="col-sm-12 col-md-4 order-sm-2 order-md-1 Medio">
+          <div className="col-12 col-md-4 order-3 order-md-1 pr-0 pl-0 bg-info Medio">
             <img className='Navbar-logo-1' 
             src={BallSuper} alt="Dragon Ball Super"/>
           </div>
-          <div className="col-sm-6 col-md-4 order-sm-1 order-md-2  Medio">
+          <div className="col-6 col-md-4 order-2 order-md-2 pr-0 pl-0  bg-info Medio">
             <img className='Navbar-logo-1'
             src={BallZ} alt="Dragon Ball Z"/>
           </div>
-        </div>
-        <div className="row order-sm-1 order-md-2">
-          <div className="col-md-12">
+          <div className="col-md-12 order-0 pr-0 pl-0 order-md-3">
             <Navbar/>
           </div>
         </div>

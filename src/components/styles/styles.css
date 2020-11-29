@@ -17,3 +17,15 @@
 .Medio {
 text-align: center;
 }
+
+.contenedor{
+  position: relative;
+  padding-top: 56.25%;
+}
+
+.react-player {
+  position: absolute;
+  top: -30%;
+  left: 0%;
+  z-index: -1;
+}
